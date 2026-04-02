@@ -12,24 +12,18 @@ This project was built as part of practical training while studying desktop appl
 
 ## 🏗 System Architecture
 
-The project follows a **3-Tier Architecture**:
-
+This is a **Single Tier Architecture** application:
 1. **Presentation Layer**
-
    * Windows Forms UI
    * Timer display
    * Mode switching controls
-
-2. **Business Logic Layer (BLL)**
-
+2. **Application Logic**
    * Timer management
    * Mode logic (Pomodoro, Short Break, Long Break)
    * State tracking
-   * Notification system
-
-3. **Data Access Layer (DAL)**
-
-   * None (client-side application)
+3. **Data Storage**
+   * None (client-side timer)
+   * Configuration settings
 
 ---
 
@@ -64,22 +58,6 @@ The project follows a **3-Tier Architecture**:
 
 ---
 
-## ⚙️ Installation & Setup
-
-1️⃣ Clone the repository
-
-```bash
-git clone https://github.com/ss24214859/Course-Abu-Hadhoud.git
-```
-
-2️⃣ Open the solution file in Visual Studio.
-
-3️⃣ Build and run the project.
-
-4️⃣ Start your Pomodoro session!
-
----
-
 ## 📷 Screenshots
 
 ### 🍅 Pomodoro Mode
@@ -93,6 +71,22 @@ git clone https://github.com/ss24214859/Course-Abu-Hadhoud.git
 ### 🌴 Long Break Mode
 
 ![LongBreakMode](Screenshots/LongBreakMode.png)
+
+---
+
+## ⚙️ Installation & Setup
+
+1️⃣ Clone the repository
+
+```bash
+git clone https://github.com/ss24214859/My-Pomodoro.git
+```
+
+2️⃣ Open the solution file in Visual Studio.
+
+3️⃣ Build and run the project.
+
+4️⃣ Start your Pomodoro session!
 
 ---
 
@@ -110,7 +104,7 @@ git clone https://github.com/ss24214859/Course-Abu-Hadhoud.git
 
 ## 👨‍💻 Author
 
-**Student**
+**Mohamed Shaaban**
 
 * GitHub: [https://github.com/ss24214859](https://github.com/ss24214859)
 
